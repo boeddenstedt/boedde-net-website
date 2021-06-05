@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteBase /
+
+# rule for removing www on sub domains
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
+# Error documents
+ErrorDocument 404 /404.html

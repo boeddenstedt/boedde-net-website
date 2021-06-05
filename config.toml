@@ -1,0 +1,63 @@
+baseURL = "https://www.boedde.net"
+languageCode = "de"
+DefaultContentLanguage = "de"
+title = "BÖDDENSTEDT VERNETZT - Verein zur Förderung bürgerschaftlichen Engagements"
+theme = ["hugo-dpsg", "hugo-snap-gallery", "hugo-cloak-email"]
+
+[permalinks]
+  news = "news/:year/:slug/index.html"
+  fotos = "fotos/:year/:slug/index.html"
+
+[Params]
+  description = "Willkommen bei der Webseite des Vereins 'BÖDDENSTEDT VERNETZT - Verein zur Förderung bürgerschaftlichen Engagements'"
+  copyright = "BÖDDENSTEDT VERNETZT e.V."
+  opengraph = true # Enable OpenGraph if true
+  twitter_cards = true # Enable Twitter Cards if true
+  readmore = false # Show "Read more" button in list if true
+  authorbox = false # Show authorbox at bottom of pages if true
+  toc = false # Enable Table of Contents
+  pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
+  indexPager = false
+  post_meta = ["date", "categories", "translations"] # Order of post meta information
+  mainSections = ["post", "blog", "news"] # Specify section pages to show on home page and the "Recent articles" widget
+  photoSections = ["fotos"] # Specify section pages to show on home page and the "Recent photos" widget
+  dateformat = "02.01.2006" # Change the format of dates
+  ##customCSS = [] # Include custom CSS files
+  customJS = [] # Include custom JS files
+  ##customPartial = "piwik.html" # Include custom partials
+  custom_css = ["static/css/styles.css"]
+
+[Params.style.vars]
+  highlightColor = "#003056" # Override highlight color
+
+[Params.logo]
+  image = "img/boedde_logo.png" # Logo image. Path relative to "static"
+  header = "img/banner_boedde.jpg" # Logo image. Path relative to "static"
+  title = "BÖDDENSTEDT VERNETZT" # Logo title, otherwise will use site title
+  subtitle = "Verein zur Förderung bürgerschaftlichen Engagements" # Logo subtitle
+
+# Used in authorbox
+[Author]
+  name = "Vorstand"
+  bio = ""
+  avatar = "img/avatar.png"
+
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "right"  # Configure layout for list pages
+  single = "right" # Configure layout for single pages
+  widgets = ["ddg-search", "recent", "recent_photos", "categories", "taglist", "social", "languages"]
+
+[Params.widgets]
+  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  tags_counter = false # Enable counter for each tag in "Tags" widget
+
+[Params.footer]
+  text = "[Impressum und Datenschutz](/impressum)" # Extra text in footer row, understands markdown
+
+[[deployment.targets]]
+# An arbitrary name for this target.
+name = "s3"
+# S3; see https://gocloud.dev/howto/blob/#s3
+# For S3-compatible endpoints, see https://gocloud.dev/howto/blob/#s3-compatible
+URL = "s3://www.boedde.net?region=eu-central-1"
