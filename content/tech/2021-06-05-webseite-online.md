@@ -17,7 +17,7 @@ git clone --recurse-submodules https://github.com/boeddenstedt/boedde-net-websit
 cd boedde-net-website
 ```
 
-Anschliessend hugo installieren und los geht es.
+Anschliessend hugo installieren ([hier die Anleitung](https://gohugo.io/getting-started/installing/)) und los geht es.
 
 ```bash
 $ hugo serve 
