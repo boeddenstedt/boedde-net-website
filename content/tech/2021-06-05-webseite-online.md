@@ -10,14 +10,14 @@ lead: Statisch aufgeladen
 Unsere Webseite ist in einer rudimentären Version online gegangen.
 Wir nutzen einen statische Webseitengenerator names [Hugo](https://gohugo.io/) - das tolle daran ist dass man keinen Webserver brauch, keine Datenbank - es reicht die Webseite einfach in einen Dateneimer (S3 Bucket) zu werfen und ihn als Webseite zu nutzen.
 
-Wer mag, kann sich unsere Webseite auf seinem Rechner anschauen und erweitern.
+Wer mag, kann sich unsere Webseite auf seinem Rechner ([Github link](https://github.com/boeddenstedt/boedde-net-website)) anschauen und erweitern.
 
 ```bash
 git clone --recurse-submodules https://github.com/boeddenstedt/boedde-net-website.git
 cd boedde-net-website
 ```
 
-ANschliessend hugo installieren und los geht es.
+Anschliessend hugo installieren und los geht es.
 
 ```bash
 $ hugo serve 
@@ -44,4 +44,4 @@ Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
 Press Ctrl+C to stop
 ```
 
-Under [localhost:1313](http://localhost:1313/) kann man nun die Webseite bestaunen.
+Unter [localhost:1313](http://localhost:1313/) kann man nun die Webseite bestaunen.

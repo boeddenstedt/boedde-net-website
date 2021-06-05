@@ -19,7 +19,7 @@ theme = ["hugo-dpsg", "hugo-snap-gallery", "hugo-cloak-email"]
   pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
   indexPager = false
   post_meta = ["date", "categories", "translations"] # Order of post meta information
-  mainSections = ["post", "blog", "news"] # Specify section pages to show on home page and the "Recent articles" widget
+  mainSections = ["post", "blog", "news", "tech"] # Specify section pages to show on home page and the "Recent articles" widget
   photoSections = ["fotos"] # Specify section pages to show on home page and the "Recent photos" widget
   dateformat = "02.01.2006" # Change the format of dates
   ##customCSS = [] # Include custom CSS files
@@ -53,7 +53,7 @@ theme = ["hugo-dpsg", "hugo-snap-gallery", "hugo-cloak-email"]
   tags_counter = false # Enable counter for each tag in "Tags" widget
 
 [Params.footer]
-  text = "[Impressum und Datenschutz](/impressum)" # Extra text in footer row, understands markdown
+  text = "[Impressum und Datenschutz](/impressum/index.html)" # Extra text in footer row, understands markdown
 
 [[deployment.targets]]
 # An arbitrary name for this target.
