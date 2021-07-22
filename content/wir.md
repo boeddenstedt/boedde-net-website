@@ -6,6 +6,7 @@ menu:
   main:
     weight: 6
 ---
+
 Unser Verein wurde im Mai 2021 mit der Vision gegründet, die Lebensqualität in Böddenstedt durch die Förderung des bürgerschaftlichen Engagements für Kultur, Kunst, Umwelt-, Landschafts-, Dorfbild- und Denkmalpflege, sowie Jugend- und Altenhilfe zu verbessern.
 
 Die Vision beinhaltet vielfältige Ziele des Vereins. Dazu gehört eine stärkere Vernetzung der verschiedenen Gruppen der Dorfgemeinschaft. Das erleichtert der Dorfgemeinschaft bei Bedarf eine Bündelung der Kräfte/Ressourcen für wichtige Aktivitäten und Projekte und gewährleistet darüber hinaus eine bessere Sichtbarkeit und Repräsentanz der einzelnen Gruppen, deren Eigenständigkeit dadurch gestärkt werden soll. Dies erlaubt eine Hilfestellung bei der gruppenübergreifenden Koordination von Projekten und die Bereitstellung eines Anlaufpunktes Einbringung von Projektideen verschiedener Komplexität und Größe. Mitbürgern möchte der Verein ermöglichen Gruppen zu finden oder ggf. auch zu gründen, um sich mit bestimmten Projekten bzw. langfristigen Initiativen in der Dorfgemeinschaft zu engagieren. Durch Förderung von Eigeninitiative und Eigenleistung soll darüber hinaus die Bereitschaft erhöht werden, soziale Verantwortung für das Dorfgemeinschaft Böddenstedt zu übernehmen.
